@@ -79,6 +79,7 @@ btn.addEventListener('click', function(){
         typeWords.disabled = true;
         btn.innerText = "Start";
         endPlay();
+      typeWords.value="";
     }
 
 })
